@@ -42,11 +42,11 @@ public class ZadC {
         }
 
         //wypisz wynik
-        System.out.println(String.format("Weighted average: %s",Average(numberList)));
+        System.out.println(String.format("Weighted average: %s", WeightedAverage(numberList)));
         scanner.next();
     }
 
-    public static float Average(final List<Number> numbers){
+    public static float WeightedAverage(final List<Number> numbers){
 
         float sum = 0f;
 
